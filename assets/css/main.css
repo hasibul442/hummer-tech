@@ -117,7 +117,6 @@ a:not([href]):not([tabindex]) {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
-  width: 660px;
 }
 
 .btn:focus,
@@ -130,7 +129,6 @@ a:not([href]):not([tabindex]) {
 .btn-common {
   background-color: #EA2027;
   position: relative;
-  z-index: 1;
   text-transform: uppercase;
 }
 
@@ -1449,13 +1447,11 @@ textarea {
 
 .bad{
   color: white;
-  width: 50%;
   text-align: center;
 
 }
 .bad1{
   text-align: center;
-  width: 50%;
 }
 
 /*.btn*/
@@ -1494,3 +1490,4 @@ textarea {
 .btn1-rm:hover {
   color: #EA2027;
 }
+
